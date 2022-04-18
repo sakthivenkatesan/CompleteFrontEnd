@@ -1,0 +1,102 @@
+#bd{
+    font-size: large;
+    font-family: sans-serif;
+}
+#l{
+    position: absolute;
+    top: 75px;
+    right: 10px;
+    width: 150px;
+    height: 40px;
+    background-color: #5e3001b4;
+
+}
+#al{
+    position: absolute;
+    top: 75px;
+    right: 175px;
+    background-color: #5e3001b4;
+    width: 150px;
+    height: 40px;
+}
+img{
+    width: 175px;
+    height: 175px;
+}
+#al1{
+    color: black;
+    font-size: 20px;
+}
+#l1{
+    color: black;
+    font-size: 20px;
+
+}
+#l2{
+    color: black;
+    font-size: 20px;
+
+}
+#su1{
+    color: black;
+    font-size: 20px;
+
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-gap: 100px;
+    color: black;
+    height: 330px;
+    position: absolute;
+    left: 350px;
+    top: 230px;
+    text-align: center;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: max-content 200px 1fr;
+    background-color: #5e3001b4!important;
+}
+.card img {
+    object-fit: cover;
+    width: 225px;
+    height: 225px;
+    align-items: center;
+    align-self: center;
+    margin: 0 auto;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 265px;
+    background-color:#5e3001b4;
+    color: black;
+    text-align: center;
+ }
+ .au{
+     text-align: left;
+     width: 40%;
+ }
+ #name
+{
+    text-align: center;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 75px;
+    position: absolute;
+    top: 55px;
+    left: 200px;
+    color: #5e3001;
+}
+.fo{
+    font-size: 35px;
+    margin: 0;
+}
+.lg{
+    width: 75px;
+    height: 75px;
+    text-align: right;
+}
